@@ -3,6 +3,12 @@ padding: 0;
 margin: 0;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 a {color: #555453;}
 a:link {color: #555453; text-decoration: none;}
 a:active {color: #555453;}
@@ -20,31 +26,20 @@ padding: 30px;
 }
 
 #wrapper {
-width: 805px; /* was 1050, but padding */
-position: relative;
+width: 75%;
 margin: 0 auto;
 }
 
 #main-header {
-width: 805px;
-height: 55px;
-position: relative;
-margin-bottom: 22px;
+  vertical-align: center;
 }
 
 #main-header img.harmonis-bali-logo {
-position: absolute;
-left: 0px;
-bottom: -15px;
-border: none;
+  float: left;
 }
 
 #main-header #main-nav {
-position: absolute;
-right: 0px;
-bottom: 0px;
-font-size: 17px;
-color: #e1e329;
+  float: right;
 }
 
 #main-header #main-nav ul {
@@ -196,11 +191,7 @@ FOOTER
 
 
 #main-footer {
-width: 805px;
-height: 12px;
-position: relative;
-clear: both;
-margin-top: 22px;
+
 }
 
 #main-footer p {
