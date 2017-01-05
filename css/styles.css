@@ -1,0 +1,212 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+a {color: #555453;}
+a:link {color: #555453; text-decoration: none;}
+a:active {color: #555453;}
+a:visited {color: #555453;}
+a:hover {color: #555453; text-decoration: underline;}
+
+body {
+background-color: #fff;
+/*font-family: "Lucida Console", Monaco, monospace;*/
+font: normal 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 100;
+text-transform: uppercase;
+color: #555453;
+padding: 30px;
+}
+
+#wrapper {
+width: 805px; /* was 1050, but padding */
+position: relative;
+margin: 0 auto;
+}
+
+#main-header {
+width: 805px;
+height: 55px;
+position: relative;
+margin-bottom: 22px;
+}
+
+#main-header img.harmonis-bali-logo {
+position: absolute;
+left: 0px;
+bottom: -15px;
+border: none;
+}
+
+#main-header #main-nav {
+position: absolute;
+right: 0px;
+bottom: 0px;
+font-size: 17px;
+color: #e1e329;
+}
+
+#main-header #main-nav ul {
+list-style: none;
+display: inline;
+}
+
+#main-header #main-nav ul li {
+display: inline;
+padding-left: 5px;
+}
+
+#main-header #main-nav ul li a {color: #e1e329; text-decoration: none;}
+#main-header #main-nav ul li a:link {color: #e1e329;}
+#main-header #main-nav ul li a:active {color: #e1e329;}
+#main-header #main-nav ul li a:visited {color: #e1e329;}
+#main-header #main-nav ul li a:hover {color: #e1e329; text-decoration: underline;}
+
+#content {
+width: 805px;
+min-height: 536px;
+position: relative;
+}
+
+#content p {
+line-height: 1.4em;
+padding: 15px;
+}
+
+#content p.about {
+background-image:url('../images/about.jpg');
+padding: 15px 15px 0px 453px;
+height: 521px;
+}
+
+#content .stores {
+width: 258px;
+min-height: 271px;
+float: left;
+}
+
+#content .stores h1 {
+font-size: 58px;
+font-weight: 100;
+}
+
+#content .stores p {
+font-size: 17px;
+margin: 0;
+padding: 0;
+}
+
+#content .padding {margin-right: 15px;}
+
+/* slide show */
+#slides {display:none;}
+
+#slides .slidesjs-navigation {
+  margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+  background-image: url(../images/btns-next-prev.png);
+  background-repeat: no-repeat;
+  display:block;
+  width:12px;
+  height:18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right:5px;
+}
+
+a.slidesjs-next {
+  margin-right:10px;
+  background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+  background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+  width:15px;
+  background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+  width:18px;
+  background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+  margin: 7px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../images/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+
+/*
+
+FOOTER
+
+*/
+
+
+#main-footer {
+width: 805px;
+height: 12px;
+position: relative;
+clear: both;
+margin-top: 22px;
+}
+
+#main-footer p {
+font-size: 10px;
+color: #777;
+letter-spacing: .2em;
+margin: 0;
+padding: 0;
+}
