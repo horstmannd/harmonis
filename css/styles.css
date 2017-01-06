@@ -99,6 +99,10 @@ padding: 0;
 
 #content .padding {margin-right: 15px;}
 
+#links img {
+  vertical-align: baseline;
+}
+
 
 /*
 
