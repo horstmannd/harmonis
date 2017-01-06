@@ -29,7 +29,7 @@ color: #555453;
 }
 
 .container {
-  min-height: calc(100vh - 63px);
+  /*min-height: calc(100vh - 63px);*/
   max-width: 805px;
   margin: 0 auto;
 }
