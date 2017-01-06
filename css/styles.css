@@ -30,6 +30,8 @@ color: #555453;
 
 .container {
   min-height: calc(100vh - 63px);
+  max-width: 805px;
+  margin: 0 auto;
 }
 
 #main-header {
@@ -70,14 +72,12 @@ padding-left: 5px;
 }
 
 #content p {
-line-height: 1.4em;
-padding: 15px;
+  color: black;
+  line-height: 1.4rem;
 }
 
-#content p.about {
-background-image:url('../images/about.jpg');
-padding: 15px 15px 0px 453px;
-height: 521px;
+#content p:nth-child(1) {
+  padding-top: 12px;
 }
 
 #content .stores {
