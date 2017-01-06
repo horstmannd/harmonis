@@ -51,13 +51,13 @@ padding-left: 5px;
 }
 
 #main-header #main-nav ul li a:link {
-  color: #b2b517; 
+  color: darkturquoise; 
   text-decoration: none;
   transition-duration: 1s;
   transition-property: color;
 }
-#main-header #main-nav ul li a:active {color: #c8cb1a;}
-#main-header #main-nav ul li a:visited {color: #c8cb1a;}
+#main-header #main-nav ul li a:active {color: darkturquoise;}
+#main-header #main-nav ul li a:visited {color: darkturquoise;}
 #main-header #main-nav ul li a:hover {color: #e1e329;}
 
 #content {
