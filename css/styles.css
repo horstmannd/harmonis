@@ -29,20 +29,20 @@ color: #555453;
 }
 
 #main-header {
-  vertical-align: center;
+  text-align: center;
 }
 
 #main-header img.harmonis-bali-logo {
-  float: left;
+  padding: 12px 0;
 }
 
 #main-header #main-nav {
-  float: right;
+  font-size: 1.5rem;
 }
 
 #main-header #main-nav ul {
 list-style: none;
-display: inline;
+display: inline-block;
 }
 
 #main-header #main-nav ul li {
@@ -50,11 +50,14 @@ display: inline;
 padding-left: 5px;
 }
 
-#main-header #main-nav ul li a {color: #e1e329; text-decoration: none;}
-#main-header #main-nav ul li a:link {color: #e1e329;}
-#main-header #main-nav ul li a:active {color: #e1e329;}
-#main-header #main-nav ul li a:visited {color: #e1e329;}
-#main-header #main-nav ul li a:hover {color: #e1e329; text-decoration: underline;}
+#main-header #main-nav ul li a:link {
+  color: #c8cb1a; text-decoration: none;
+  transition-duration: 1s;
+  transition-property: color;
+}
+#main-header #main-nav ul li a:active {color: #c8cb1a;}
+#main-header #main-nav ul li a:visited {color: #c8cb1a;}
+#main-header #main-nav ul li a:hover {color: #e1e329;}
 
 #content {
 
@@ -197,4 +200,22 @@ color: #777;
 letter-spacing: .2em;
 margin: 0;
 padding: 0;
+}
+
+/* 
+
+MEDIA QUERIES
+
+*/
+
+@media screen and (min-width: 770px) {
+  #main-header img.harmonis-bali-logo {
+    padding: 12px 0;
+    float: left;
+  }
+
+  #main-header #main-nav {
+  list-style: none;
+  float: right;
+  }
 }
