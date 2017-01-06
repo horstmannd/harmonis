@@ -82,19 +82,23 @@ padding-left: 5px;
 }
 
 #content .stores {
-width: 258px;
-min-height: 271px;
-float: left;
+display: inline;
+}
+
+#content .stores img {
+width: 100%;
 }
 
 #content .stores h1 {
 font-size: 58px;
 font-weight: 100;
+margin-top: 7px;
 }
 
 #content .stores p {
 font-size: 17px;
 margin: 0;
+margin-bottom: 24px;
 padding: 0;
 }
 
@@ -132,6 +136,11 @@ padding: 0;
 MEDIA QUERIES
 
 */
+
+@media screen and (min-width: 481px) {
+
+  }
+}
 
 @media screen and (min-width: 770px) {
   #main-header img.harmonis-bali-logo {
