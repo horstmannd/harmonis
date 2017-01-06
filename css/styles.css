@@ -30,7 +30,7 @@ color: #555453;
 }
 
 .container {
-  min-height: calc(100vh - 41px);
+  min-height: calc(100vh - 63px);
 }
 
 #main-header {
@@ -109,7 +109,8 @@ FOOTER
 
 #main-footer {
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
+  margin-top: 12px;
 }
 
 #main-footer p {
