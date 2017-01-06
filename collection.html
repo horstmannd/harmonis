@@ -1,483 +1,387 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="icon" href="images/favicon.png" type="image/png" />
-<link rel="stylesheet" href="styles/galleriffic-2.css" type="text/css" />
-<link rel="stylesheet" type="text/css" href="styles/hormonisstyles.css" />
-
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-
-<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
-<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
-<!-- We only want the thunbnails to display when javascript is disabled -->
-<script type="text/javascript">
-	document.write('<style type="text/css">.noscript { display: none; }</style>');
-</script>
-
-<title>Harmonis Bali</title>
-</head>
-
-<body>
-
-<div id="wrapper">
-
-<div id="header">
-<a href="/" title="Home"><img alt="Harmonis Logo" class="harmonis-bali-logo" src="images/harmonis-bali-logo.png" /></a>
-<div id="nav">
-<ul>
-<li><a href="about.html">About</a></li>
-<li><a href="collection.html">Collection</a></li>
-<li><a href="stores.html">Stores</a></li>
-</ul>
-</div> <!-- end of #nav -->
-</div> <!-- end of #header -->
-
-<div id="content">
-
-<!-- Start Advanced Gallery Html Containers -->
-				<div id="gallery">
-					<div id="controls" class="controls"></div>
-					<div class="slideshow-container">
-						<div id="loading" class="loader"></div>
-						<div id="slideshow" class="slideshow"></div>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="images/favicon.png" type="image/png" />
+		<link rel="stylesheet" href="styles/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<title>Harmonis Bali &bull; Collection</title>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix" id="main-header">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<a href="/" title="Home"><img class="harmonis-bali-logo" alt="Harmonis Logo" src="images/harmonis-bali-logo.png" /></a>
 					</div>
-					<div id="caption" class="caption-container"></div>
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<nav id="main-nav">
+							<ul>
+							<li><a href="about.html">About</a></li>
+							<li><a href="collection.html">Collection</a></li>
+							<li><a href="stores.html">Stores</a></li>
+							</ul>
+						</nav> <!-- end of #nav -->
+					</div>
 				</div>
-				
-				<div id="thumbs" class="navigation">
-					<ul class="thumbs noscript">
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali1.jpg" title="Pic 1">
-								<img src="images/collection/thumb_harmonisbali1.jpg" alt="Thumb 1" />
-							</a>
-							<!--
-							
-							Code for description, title and caption below:
-							
-							(will need to change div.caption-container height to 75px in galleriffic-2.css)
-							
-							<div class="caption">
-								<div class="download">
-									<a href="http://farm4.static.flickr.com/3261/2538183196_8baf9a8015_b.jpg">Download Original</a>
+			</header> <!-- end of #header -->
+			<div id="content" class="text-center">
+				<div id="blueimp-gallery" class="blueimp-gallery">
+				    <div class="slides"></div>
+				    <h3 class="title"></h3>
+				    <a class="prev">‹</a>
+				    <a class="next">›</a>
+				    <a class="close">×</a>
+				    <a class="play-pause"></a>
+				    <ol class="indicator"></ol>
+				</div>
+
+				<div id="links">
+				    <a href="images/collection/harmonisbali1.jpg" title="White Top: No.175 &amp; Black Pants: No.757">
+				        <img src="images/collection/thumb_harmonisbali1.jpg" alt="White Top: No.175 &amp; Black Pants: No.757">
+				    </a>
+				    <a href="images/collection/harmonisbali2.jpg" title="White Dress: No.476">
+				        <img src="images/collection/thumb_harmonisbali2.jpg" alt="White Dress: No.476">
+				    </a>
+				    <a href="images/collection/harmonisbali3.jpg" title="White Dress: No.476">
+				        <img src="images/collection/thumb_harmonisbali3.jpg" alt="White Dress: No.476">
+				    </a>
+				    <a href="images/collection/harmonisbali4.jpg" title="White Top: No.536 &amp; White Pants: No.757">
+				        <img src="images/collection/thumb_harmonisbali4.jpg" alt="White Top: No.536 &amp; White Pants: No.757">
+				    </a>
+				    <a href="images/collection/harmonisbali5.jpg" title="White Top: No.536 &amp; White Pants: No.757">
+				        <img src="images/collection/thumb_harmonisbali5.jpg" alt="White Top: No.536 &amp; White Pants: No.757">
+				    </a>
+				    <a href="images/collection/harmonisbali3.jpg" title="">
+				        <img src="images/collection/thumb_harmonisbali3.jpg" alt="">
+				    </a>
+
+				</div>
+					<!--
+
+
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali6.jpg" title="Pic 6">
+									<img src="images/collection/thumb_harmonisbali6.jpg" alt="Thumb 6" />
+								</a>
+								<div class="caption">
+									<div class="image-title">White Top: No.536 <br />Maroon Batik Skirt: No.690</div>
 								</div>
-								<div class="image-title">Title #0</div>
-								<div class="image-desc">Description</div>
-							</div>
-							
-							-->
-							
-							<div class="caption">
-								<div class="image-title">White Top: No.175 <br />Black Pants: No.757</div>
-							</div>
-							
-						</li>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali2.jpg" title="Pic 2">
-								<img src="images/collection/thumb_harmonisbali2.jpg" alt="Thumb 2" />
-							</a>
-							<div class="caption">
-								<div class="image-title">White Dress: No.476</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali7.jpg" title="Pic 7">
+									<img src="images/collection/thumb_harmonisbali7.jpg" alt="Thumb 7" />
+								</a>
+								<div class="caption">
+									<div class="image-title">White Top: No.805 <br />Classic Batik Wrapped around skirt: No.609-1</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali3.jpg" title="Pic 3">
-								<img src="images/collection/thumb_harmonisbali3.jpg" alt="Thumb 3" />
-							</a>
-							<div class="caption">
-								<div class="image-title">White Dress: No.476</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali8.jpg" title="Pic 8">
+									<img src="images/collection/thumb_harmonisbali8.jpg" alt="Thumb 8" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Feather Batik dress front: No.472</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali4.jpg" title="Pic 4">
-								<img src="images/collection/thumb_harmonisbali4.jpg" alt="Thumb 4" />
-							</a>
-							<div class="caption">
-								<div class="image-title">White Top: No.536 <br />White Pants: No.757 </div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali9.jpg" title="Pic 9">
+									<img src="images/collection/thumb_harmonisbali9.jpg" alt="Thumb 9" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Feather Batik dress back: No.472</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali5.jpg" title="Pic 5">
-								<img src="images/collection/thumb_harmonisbali5.jpg" alt="Thumb 5" />
-							</a>
-							<div class="caption">
-								<div class="image-title">White Top: No.536 <br />White Pants: No.757</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali10.jpg" title="Pic 10">
+									<img src="images/collection/thumb_harmonisbali10.jpg" alt="Thumb 10" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Olive Dress: No.471</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali6.jpg" title="Pic 6">
-								<img src="images/collection/thumb_harmonisbali6.jpg" alt="Thumb 6" />
-							</a>
-							<div class="caption">
-								<div class="image-title">White Top: No.536 <br />Maroon Batik Skirt: No.690</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali7.jpg" title="Pic 7">
-								<img src="images/collection/thumb_harmonisbali7.jpg" alt="Thumb 7" />
-							</a>
-							<div class="caption">
-								<div class="image-title">White Top: No.805 <br />Classic Batik Wrapped around skirt: No.609-1</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali8.jpg" title="Pic 8">
-								<img src="images/collection/thumb_harmonisbali8.jpg" alt="Thumb 8" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Feather Batik dress front: No.472</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali9.jpg" title="Pic 9">
-								<img src="images/collection/thumb_harmonisbali9.jpg" alt="Thumb 9" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Feather Batik dress back: No.472</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali10.jpg" title="Pic 10">
-								<img src="images/collection/thumb_harmonisbali10.jpg" alt="Thumb 10" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Olive Dress: No.471</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali11.jpg" title="Pic 11">
-								<img src="images/collection/thumb_harmonisbali11.jpg" alt="Thumb 11" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Mint &amp; Indigo Batik dress: No.444</div>
-							</div>
-						</li>
-					
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali12.jpg" title="Pic 12">
-								<img src="images/collection/thumb_harmonisbali12.jpg" alt="Thumb 12" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Cream Dress: No.470</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali13.jpg" title="Pic 13">
-								<img src="images/collection/thumb_harmonisbali13.jpg" alt="Thumb 13" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Purple Batik dress: No.469</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali14.jpg" title="Pic 14">
-								<img src="images/collection/thumb_harmonisbali14.jpg" alt="Thumb 14" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Rose Batik short dress: No.171</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali15.jpg" title="Pic 15">
-								<img src="images/collection/thumb_harmonisbali15.jpg" alt="Thumb 15" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Deep Blue Dress: No.450 version 2</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali16.jpg" title="Pic 16">
-								<img src="images/collection/thumb_harmonisbali16.jpg" alt="Thumb 16" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Navy Batik dress: No.474</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali17.jpg" title="Pic 17">
-								<img src="images/collection/thumb_harmonisbali17.jpg" alt="Thumb 17" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Green Black Top: No.536</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali18.jpg" title="Pic 18">
-								<img src="images/collection/thumb_harmonisbali18.jpg" alt="Thumb 18" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Green Black Top: No.536 <br />White Double Layered Skirt: No.665</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali19.jpg" title="Pic 19">
-								<img src="images/collection/thumb_harmonisbali19.jpg" alt="Thumb 19" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Rose Batik top: NO.536 <br />White Skirt: No.665</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali20.jpg" title="Pic 20">
-								<img src="images/collection/thumb_harmonisbali20.jpg" alt="Thumb 20" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Red Top: No.307<br />Black Pants: No.757</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali21.jpg" title="Pic 21">
-								<img src="images/collection/thumb_harmonisbali21.jpg" alt="Thumb 21" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Red Top: No. 307<br />Black Pants: No.757</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali22.jpg" title="Pic 22">
-								<img src="images/collection/thumb_harmonisbali22.jpg" alt="Thumb 22" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Rose Batik top: No.338<br />Black Pants: No.757</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali23.jpg" title="Pic 23">
-								<img src="images/collection/thumb_harmonisbali23.jpg" alt="Thumb 23" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Rose Batik top: No.212<br />White Pants: No.757</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali24.jpg" title="Pic 24">
-								<img src="images/collection/thumb_harmonisbali24.jpg" alt="Thumb 24" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Black Top: No.536<br />Red Batik skirt: No.661</div>
-							</div>
-						</li>
-
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali25.jpg" title="Pic 25">
-								<img src="images/collection/thumb_harmonisbali25.jpg" alt="Thumb 25" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Black Top: No.536<br />Red Batik skirt: No.661</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali11.jpg" title="Pic 11">
+									<img src="images/collection/thumb_harmonisbali11.jpg" alt="Thumb 11" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Mint &amp; Indigo Batik dress: No.444</div>
+								</div>
+							</li>
 						
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali26.jpg" title="Pic 26">
-								<img src="images/collection/thumb_harmonisbali26.jpg" alt="Thumb 26" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Blue Top: No.274<br />Feather Batik skirt: No.681</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali12.jpg" title="Pic 12">
+									<img src="images/collection/thumb_harmonisbali12.jpg" alt="Thumb 12" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Cream Dress: No.470</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali27.jpg" title="Pic 27">
-								<img src="images/collection/thumb_harmonisbali27.jpg" alt="Thumb 27" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Diamond Print short dress: No.981</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali13.jpg" title="Pic 13">
+									<img src="images/collection/thumb_harmonisbali13.jpg" alt="Thumb 13" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Purple Batik dress: No.469</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali28.jpg" title="Pic 28">
-								<img src="images/collection/thumb_harmonisbali28.jpg" alt="Thumb 28" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Red Batik dress: No.983</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali14.jpg" title="Pic 14">
+									<img src="images/collection/thumb_harmonisbali14.jpg" alt="Thumb 14" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Rose Batik short dress: No.171</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali29.jpg" title="Pic 29">
-								<img src="images/collection/thumb_harmonisbali29.jpg" alt="Thumb 29" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Chinese Ink dress: No.186</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali15.jpg" title="Pic 15">
+									<img src="images/collection/thumb_harmonisbali15.jpg" alt="Thumb 15" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Deep Blue Dress: No.450 version 2</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali30.jpg" title="Pic 30">
-								<img src="images/collection/thumb_harmonisbali30.jpg" alt="Thumb 30" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Blue Dress: No.473 Series 3</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali16.jpg" title="Pic 16">
+									<img src="images/collection/thumb_harmonisbali16.jpg" alt="Thumb 16" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Navy Batik dress: No.474</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali31.jpg" title="Pic 31">
-								<img src="images/collection/thumb_harmonisbali31.jpg" alt="Thumb 31" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Black Top: No.175<br />Short Pants in Red Batik: No.654</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali17.jpg" title="Pic 17">
+									<img src="images/collection/thumb_harmonisbali17.jpg" alt="Thumb 17" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Green Black Top: No.536</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali32.jpg" title="Pic 32">
-								<img src="images/collection/thumb_harmonisbali32.jpg" alt="Thumb 32" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Black Top: No.175<br />Green Circle Pants: No.684</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali18.jpg" title="Pic 18">
+									<img src="images/collection/thumb_harmonisbali18.jpg" alt="Thumb 18" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Green Black Top: No.536 <br />White Double Layered Skirt: No.665</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali33.jpg" title="Pic 33">
-								<img src="images/collection/thumb_harmonisbali33.jpg" alt="Thumb 33" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Navy Batik top: No.275</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali19.jpg" title="Pic 19">
+									<img src="images/collection/thumb_harmonisbali19.jpg" alt="Thumb 19" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Rose Batik top: NO.536 <br />White Skirt: No.665</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali34.jpg" title="Pic 34">
-								<img src="images/collection/thumb_harmonisbali34.jpg" alt="Thumb 34" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Green Print top: No.255-1</div>
-							</div>
-						</li>						
-						
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali35.jpg" title="Pic 35">
-								<img src="images/collection/thumb_harmonisbali35.jpg" alt="Thumb 35" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Classic Batik top: No.805</div>
-							</div>
-						</li>						
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali20.jpg" title="Pic 20">
+									<img src="images/collection/thumb_harmonisbali20.jpg" alt="Thumb 20" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Red Top: No.307<br />Black Pants: No.757</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali36.jpg" title="Pic 36">
-								<img src="images/collection/thumb_harmonisbali36.jpg" alt="Thumb 36" />
-							</a>
-							<div class="caption">
-								<div class="image-title">white Top: No.127</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali21.jpg" title="Pic 21">
+									<img src="images/collection/thumb_harmonisbali21.jpg" alt="Thumb 21" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Red Top: No. 307<br />Black Pants: No.757</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali37.jpg" title="Pic 37">
-								<img src="images/collection/thumb_harmonisbali37.jpg" alt="Thumb 37" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Chocolate Batik top front: No.805</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali22.jpg" title="Pic 22">
+									<img src="images/collection/thumb_harmonisbali22.jpg" alt="Thumb 22" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Rose Batik top: No.338<br />Black Pants: No.757</div>
+								</div>
+							</li>
 
-						<li>
-							<a class="thumb" name="leaf" href="images/collection/harmonisbali38.jpg" title="Pic 38">
-								<img src="images/collection/thumb_harmonisbali38.jpg" alt="Thumb 38" />
-							</a>
-							<div class="caption">
-								<div class="image-title">Chocolate Batik top back: No.805</div>
-							</div>
-						</li>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali23.jpg" title="Pic 23">
+									<img src="images/collection/thumb_harmonisbali23.jpg" alt="Thumb 23" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Rose Batik top: No.212<br />White Pants: No.757</div>
+								</div>
+							</li>
 
-					</ul>
-				</div>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali24.jpg" title="Pic 24">
+									<img src="images/collection/thumb_harmonisbali24.jpg" alt="Thumb 24" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Black Top: No.536<br />Red Batik skirt: No.661</div>
+								</div>
+							</li>
 
-</div> <!-- end of #content -->
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali25.jpg" title="Pic 25">
+									<img src="images/collection/thumb_harmonisbali25.jpg" alt="Thumb 25" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Black Top: No.536<br />Red Batik skirt: No.661</div>
+								</div>
+							</li>
+							
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali26.jpg" title="Pic 26">
+									<img src="images/collection/thumb_harmonisbali26.jpg" alt="Thumb 26" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Blue Top: No.274<br />Feather Batik skirt: No.681</div>
+								</div>
+							</li>
 
-<div id="footer">
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali27.jpg" title="Pic 27">
+									<img src="images/collection/thumb_harmonisbali27.jpg" alt="Thumb 27" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Diamond Print short dress: No.981</div>
+								</div>
+							</li>
 
-<p><a href="mailto:bluefieldharmony@hotmail.com">bluefieldharmony@hotmail.com</a> &bull; Designed by <a href="mailto:sunnyhu7@gmail.com">Sunny Horstmann</a></p>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali28.jpg" title="Pic 28">
+									<img src="images/collection/thumb_harmonisbali28.jpg" alt="Thumb 28" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Red Batik dress: No.983</div>
+								</div>
+							</li>
 
-</div> <!-- end of #footer -->
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali29.jpg" title="Pic 29">
+									<img src="images/collection/thumb_harmonisbali29.jpg" alt="Thumb 29" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Chinese Ink dress: No.186</div>
+								</div>
+							</li>
 
-</div> <!-- end of #wrapper -->
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali30.jpg" title="Pic 30">
+									<img src="images/collection/thumb_harmonisbali30.jpg" alt="Thumb 30" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Blue Dress: No.473 Series 3</div>
+								</div>
+							</li>
 
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				// We only want these styles applied when javascript is enabled
-				$('div.navigation').css({'width' : '300px', 'float' : 'left'});
-				$('div.content').css('display', 'block');
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali31.jpg" title="Pic 31">
+									<img src="images/collection/thumb_harmonisbali31.jpg" alt="Thumb 31" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Black Top: No.175<br />Short Pants in Red Batik: No.654</div>
+								</div>
+							</li>
 
-				// Initially set opacity on thumbs and add
-				// additional styling for hover effect on thumbs
-				var onMouseOutOpacity = 0.67;
-				$('#thumbs ul.thumbs li').opacityrollover({
-					mouseOutOpacity:   onMouseOutOpacity,
-					mouseOverOpacity:  1.0,
-					fadeSpeed:         'fast',
-					exemptionSelector: '.selected'
-				});
-				
-				// Initialize Advanced Galleriffic Gallery
-				var gallery = $('#thumbs').galleriffic({
-					delay:                     2500,
-					numThumbs:                 15,
-					preloadAhead:              10,
-					enableTopPager:            true,
-					enableBottomPager:         true,
-					maxPagesToShow:            7,
-					imageContainerSel:         '#slideshow',
-					controlsContainerSel:      '#controls',
-					captionContainerSel:       '#caption',
-					loadingContainerSel:       '#loading',
-					renderSSControls:          true,
-					renderNavControls:         true,
-					playLinkText:              'Play Slideshow',
-					pauseLinkText:             'Pause Slideshow',
-					prevLinkText:              '&lsaquo; Previous Photo',
-					nextLinkText:              'Next Photo &rsaquo;',
-					nextPageLinkText:          'Next &rsaquo;',
-					prevPageLinkText:          '&lsaquo; Prev',
-					enableHistory:             false,
-					autoStart:                 false,
-					syncTransitions:           true,
-					defaultTransitionDuration: 900,
-					onSlideChange:             function(prevIndex, nextIndex) {
-						// 'this' refers to the gallery, which is an extension of $('#thumbs')
-						this.find('ul.thumbs').children()
-							.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
-							.eq(nextIndex).fadeTo('fast', 1.0);
-					},
-					onPageTransitionOut:       function(callback) {
-						this.fadeTo('fast', 0.0, callback);
-					},
-					onPageTransitionIn:        function() {
-						this.fadeTo('fast', 1.0);
-					}
-				});
-			});
-		</script>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali32.jpg" title="Pic 32">
+									<img src="images/collection/thumb_harmonisbali32.jpg" alt="Thumb 32" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Black Top: No.175<br />Green Circle Pants: No.684</div>
+								</div>
+							</li>
 
-</body>
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali33.jpg" title="Pic 33">
+									<img src="images/collection/thumb_harmonisbali33.jpg" alt="Thumb 33" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Navy Batik top: No.275</div>
+								</div>
+							</li>
 
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali34.jpg" title="Pic 34">
+									<img src="images/collection/thumb_harmonisbali34.jpg" alt="Thumb 34" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Green Print top: No.255-1</div>
+								</div>
+							</li>						
+							
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali35.jpg" title="Pic 35">
+									<img src="images/collection/thumb_harmonisbali35.jpg" alt="Thumb 35" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Classic Batik top: No.805</div>
+								</div>
+							</li>						
+
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali36.jpg" title="Pic 36">
+									<img src="images/collection/thumb_harmonisbali36.jpg" alt="Thumb 36" />
+								</a>
+								<div class="caption">
+									<div class="image-title">white Top: No.127</div>
+								</div>
+							</li>
+
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali37.jpg" title="Pic 37">
+									<img src="images/collection/thumb_harmonisbali37.jpg" alt="Thumb 37" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Chocolate Batik top front: No.805</div>
+								</div>
+							</li>
+
+							<li>
+								<a class="thumb" name="leaf" href="images/collection/harmonisbali38.jpg" title="Pic 38">
+									<img src="images/collection/thumb_harmonisbali38.jpg" alt="Thumb 38" />
+								</a>
+								<div class="caption">
+									<div class="image-title">Chocolate Batik top back: No.805</div>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+					-->
+			</div> <!-- end of #content -->
+		</div> <!-- end of .container -->
+		<footer id="main-footer">
+			<p><a href="mailto:bluefieldharmony@hotmail.com">bluefieldharmony@hotmail.com</a> &bull; Designed by <a href="mailto:sunnyhu7@gmail.com">Sunny Horstmann</a></p>
+		</footer> <!-- end of #footer -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="js/blueimp-gallery.min.js"></script>
+		<script>
+			document.getElementById('links').onclick = function (event) {
+			    event = event || window.event;
+			    var target = event.target || event.srcElement,
+			        link = target.src ? target.parentNode : target,
+			        options = {index: link, event: event},
+			        links = this.getElementsByTagName('a');
+			    blueimp.Gallery(links, options);
+			};
+	</script>
+	</body>
 </html>
